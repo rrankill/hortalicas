@@ -81,43 +81,43 @@ export const hortalicas =[
         imagem:"https://example.com/mandioca.jpg"                 
     },
     {
-        id:15,
+        id:14,
         titulo:"batata-doce", 
         propaganda:"batatas-doces doces e versáteis, ótimas para assados e purês,",
         imagem:"https://example.com/batata-doce.jpg"     
     },
     {
-        id:16,
+        id:15,
         titulo:"chuchu", 
         propaganda:"chuchus leves e versáteis, usados em diversas receitas,",
         imagem:"https://example.com/chuchu.jpg"
     },
     {
-        id:17,
+        id:16,
         titulo:"couve", 
         propaganda:"couve verde e nutritiva, excelente para refogados e sucos,",
         imagem:"https://example.com/couve.jpg"
     },
     {
-        id:18,
+        id:17,
         titulo:"espinafre",      
         propaganda:"espinafres verdes e nutritivos, ideais para saladas e sucos,",
         imagem:"https://example.com/espinafre.jpg"
     },
     {
-        id:19,
+        id:18,
         titulo:"rúcula",
         propaganda:"rúculas frescas e picantes, perfeitas para saladas e lanches,",
         imagem:"https://example.com/rúcula.jpg"
     },
     {
-        id:20,
+        id:19,
         titulo:"agrião",  
         propaganda:"agriões frescos e picantes, ideais para saladas e lanches,",
         imagem:"https://example.com/agrião.jpg"
     },
     {
-        id:21,
+        id:20,
         titulo:"repolho",
         propaganda:"repolhos frescos e crocantes, ideais para saladas e lanches,",
         imagem:"https://example.com/repolho.jpg"
