@@ -24,14 +24,12 @@ body {
   width: 300px;
   margin: 16px;
   text-align: center;
-
 }
 
 .card-hortalicas:hover {
   background-color: var(--primary-hover);
   cursor: pointer;
-
-}           
+}
 
 .card-imagem {
   width: 100%;
@@ -44,7 +42,7 @@ body {
   margin: 8px 0;
 }
 
-.card-descriçao {
+.card-propaganda {
   font-size: 1rem;
   color: var(--text-color);
 }
