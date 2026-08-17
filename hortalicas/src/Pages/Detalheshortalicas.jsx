@@ -67,14 +67,14 @@ function DetalhesHortalicas() {
       especie: "Eruca vesicaria",
       nutrientes: "A rúcula possui fibras, vitamina A, vitamina C, vitamina K, folato e cálcio.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
-      imagem: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?auto=format&fit=crop&w=800&q=80",
+      imagem: "https://i.pinimg.com/1200x/80/39/78/8039781f174d8d9d6aa5e58d394624a0.jpg",
     },
     rucula: {
       nome: "Rúcula",
       especie: "Eruca vesicaria",
       nutrientes: "A rúcula possui fibras, vitamina A, vitamina C, vitamina K, folato e cálcio.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
-      imagem: "https://images.unsplash.com/photo-1515023115689-589c33041d3c?auto=format&fit=crop&w=800&q=80",
+      imagem: "",
     },
     "agrião": {
       nome: "Agrião",
