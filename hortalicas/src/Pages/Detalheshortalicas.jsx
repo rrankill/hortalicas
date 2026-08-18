@@ -2,158 +2,158 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 function DetalhesHortalicas() {
-  const { nome } = useParams();
+  const { id } = useParams();
   const nomeTratado = nome ? nome.toLowerCase().trim() : "";
 
   const hortalicas = {
-    alface: {
+    1: {
       nome: "Alface",
       especie: "Lactuca sativa",
       nutrientes: "A alface possui água, fibras, vitamina A, vitamina K, folato e minerais.",
       beneficios: "Pode contribuir para a hidratação, o funcionamento do intestino e uma alimentação equilibrada.",
       imagem: "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?auto=format&fit=crop&w=800&q=80",
     },
-    tomate: {
+    2: {
       nome: "Tomate",
       especie: "Solanum lycopersicum",
       nutrientes: "O tomate possui vitamina C, vitamina K, potássio, folato e licopeno.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer compostos antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=800&q=80",
     },
-    cenoura: {
+    3: {
       nome: "Cenoura",
       especie: "Daucus carota",
       nutrientes: "A cenoura é rica em betacaroteno, fibras, vitamina K, potássio e antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer nutrientes importantes.",
       imagem: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
     },
-    pepino: {
+    4: {
       nome: "Pepino",
       especie: "Cucumis sativus",
       nutrientes: "O pepino possui bastante água, fibras, vitamina K e minerais.",
       beneficios: "Pode contribuir para a hidratação e para uma alimentação equilibrada.",
       imagem: "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=800&q=80",
     },
-    brocolis: {
+    5: {
       nome: "Brócolis",
       especie: "Brassica oleracea",
       nutrientes: "O brócolis possui fibras, vitamina C, vitamina K, folato e minerais.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=800&q=80",
     },
-    pimentao: {
+    6: {
       nome: "Pimentão",
       especie: "Capsicum annuum",
       nutrientes: "O pimentão possui vitamina C, vitamina A, fibras e antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=800&q=80",
     },
-    couve: {
+    7: {
       nome: "Couve",
       especie: "Brassica oleracea var. acephala",
       nutrientes: "A couve possui fibras, vitamina C, vitamina K, vitamina A, cálcio e ferro.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e fibras.",
       imagem: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?auto=format&fit=crop&w=800&q=80",
     },
-    espinafre: {
+    8: {
       nome: "Espinafre",
       especie: "Spinacia oleracea",
       nutrientes: "O espinafre possui ferro, fibras, vitamina A, vitamina C, vitamina K e folato.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
     },
-    "rúcula": {
+    9: {
       nome: "Rúcula",
       especie: "Eruca vesicaria",
       nutrientes: "A rúcula possui fibras, vitamina A, vitamina C, vitamina K, folato e cálcio.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
       imagem: "https://i.pinimg.com/1200x/80/39/78/8039781f174d8d9d6aa5e58d394624a0.jpg",
     },
-    rucula: {
+    10: {
       nome: "Rúcula",
       especie: "Eruca vesicaria",
       nutrientes: "A rúcula possui fibras, vitamina A, vitamina C, vitamina K, folato e cálcio.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
       imagem: "",
     },
-    "agrião": {
+    11: {
       nome: "Agrião",
       especie: "Nasturtium officinale",
       nutrientes: "O agrião possui vitamina C, vitamina A, vitamina K, cálcio e antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
     },
-    agriao: {
+    12: {
       nome: "Agrião",
       especie: "Nasturtium officinale",
       nutrientes: "O agrião possui vitamina C, vitamina A, vitamina K, cálcio e antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas, minerais e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
     },
-    repolho: {
+    13: {
       nome: "Repolho",
       especie: "Brassica oleracea var. capitata",
       nutrientes: "O repolho possui fibras, vitamina C, vitamina K, folato e minerais.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer fibras e vitaminas.",
       imagem: "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=800&q=80",
     },
-    chuchu: {
+    14: {
       nome: "Chuchu",
       especie: "Sechium edule",
       nutrientes: "O chuchu possui água, fibras, vitamina C, folato e minerais.",
       beneficios: "Pode contribuir para a hidratação e para uma alimentação equilibrada.",
       imagem: "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=800&q=80",
     },
-    abobrinha: {
+    15: {
       nome: "Abobrinha",
       especie: "Cucurbita pepo",
       nutrientes: "A abobrinha possui água, fibras, vitamina C, vitamina A, potássio e folato.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer fibras e vitaminas.",
       imagem: "https://images.unsplash.com/photo-1563252722-6434563a985d?auto=format&fit=crop&w=800&q=80",
     },
-    "batata-doce": {
+    16: {
       nome: "Batata-doce",
       especie: "Ipomoea batatas",
       nutrientes: "A batata-doce possui carboidratos, fibras, potássio, vitamina A e vitamina C.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer energia, fibras e nutrientes.",
       imagem: "https://images.unsplash.com/photo-1596097635121-14b38c7b8a37?auto=format&fit=crop&w=800&q=80",
     },
-    mandioca: {
+    17: {
       nome: "Mandioca",
       especie: "Manihot esculenta",
       nutrientes: "A mandioca possui carboidratos, fibras, vitamina C e alguns minerais.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer energia.",
       imagem: "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=800&q=80",
     },
-    nabo: {
+    18: {
       nome: "Nabo",
       especie: "Brassica rapa",
       nutrientes: "O nabo possui fibras, vitamina C, folato, potássio e minerais.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer fibras e vitaminas.",
       imagem: "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=800&q=80",
     },
-    beterraba: {
+    19: {
       nome: "Beterraba",
       especie: "Beta vulgaris",
       nutrientes: "A beterraba possui fibras, folato, potássio, vitamina C e compostos antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer fibras, vitaminas e minerais.",
       imagem: "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?auto=format&fit=crop&w=800&q=80",
     },
-    cebola: {
+    20: {
       nome: "Cebola",
       especie: "Allium cepa",
       nutrientes: "A cebola possui fibras, vitamina C, folato, potássio e compostos antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer compostos antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
     },
-    salsa: {
+    21: {
       nome: "Salsa",
       especie: "Petroselinum crispum",
       nutrientes: "A salsa possui vitamina A, vitamina C, vitamina K, folato e antioxidantes.",
       beneficios: "Pode contribuir para uma alimentação equilibrada e fornecer vitaminas e antioxidantes.",
       imagem: "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=800&q=80",
     },
-    ervilha: {
+    22: {
       nome: "Ervilha",
       especie: "Pisum sativum",
       nutrientes: "A ervilha possui proteínas vegetais, fibras, vitamina C, vitamina K, folato e minerais.",
