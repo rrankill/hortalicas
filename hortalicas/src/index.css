@@ -1,13 +1,9 @@
-/* =========================
-   PÁGINA HOME
-   ========================= */
 
    .pagina-home {
     min-height: 100vh;
     padding: 40px 20px;
     box-sizing: border-box;
   
-    /* Mesma imagem de fundo de frutas/legumes para manter padrão */
     background-image: 
       linear-gradient(rgba(15, 38, 18, 0.75), rgba(15, 38, 18, 0.85)), 
       url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1920&q=85");
@@ -20,7 +16,7 @@
   }
   
   .titulo-home {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
   }
   
@@ -30,7 +26,6 @@
     color: #e0f2f1;
   }
   
-  /* Grade de cards */
   .lista-hortalicas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -39,7 +34,6 @@
     margin: 0 auto;
   }
   
-  /* Card individual */
   .card-hortalicas {
     background: rgba(38, 76, 43, 0.92);
     border-radius: 12px;
@@ -50,7 +44,6 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* Efeito Hover no Card */
   .card-hortalicas:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
@@ -63,7 +56,6 @@
     transition: transform 0.3s ease;
   }
   
-  /* Leve zoom na imagem ao passar o mouse no card */
   .card-hortalicas:hover .card-imagem {
     transform: scale(1.05);
   }
@@ -86,7 +78,6 @@
     flex: 1;
   }
   
-  /* Botão Detalhes */
   .btn-detalhes {
     display: inline-block;
     padding: 8px 14px;
@@ -98,7 +89,6 @@
     transition: background 0.2s ease, transform 0.2s ease;
   }
   
-  /* Efeito Hover no Botão */
   .btn-detalhes:hover {
     background: #3ca34c;
     transform: scale(1.03);
