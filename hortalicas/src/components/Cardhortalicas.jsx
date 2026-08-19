@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CardHortalicas({ titulo, propaganda, imagem }) {
+function CardHortalicas({ id, titulo, propaganda, imagem }) {
   return (
     <div className="card-hortalicas">
       <img
@@ -16,7 +16,7 @@ function CardHortalicas({ titulo, propaganda, imagem }) {
         <p className="card-propaganda">{propaganda}</p>
 
         <Link
-          to={`/hortalica/${titulo.toLowerCase().trim()}`}
+          to={`/hortalica/${id}`}
           className="btn-detalhes"
         >
           Ver detalhes

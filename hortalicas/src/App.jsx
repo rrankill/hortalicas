@@ -11,10 +11,7 @@ function App() {
 
         <Route path="/" element={<Home />} />
 
-        <Route
-          path="/hortalica/:nome"
-          element={<DetalhesHortalicas />}
-        />
+        <Route path="/hortalica/:id" element={<DetalhesHortalicas />} />
 
       </Routes>
     </BrowserRouter>

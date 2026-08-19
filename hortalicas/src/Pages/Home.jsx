@@ -17,6 +17,7 @@ function Home() {
         {hortalicas.map((hortalica) => (
           <CardHortalicas
             key={hortalica.id}
+            id={hortalica.id}
             titulo={hortalica.titulo}
             propaganda={hortalica.propaganda}
             imagem={hortalica.imagem}
